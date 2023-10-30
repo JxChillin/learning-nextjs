@@ -163,6 +163,7 @@ async function seedRevenue() {
 (async () => {
   await seedUsers();
   await seedCustomers();
+  //will probably revisit but not an issue currently
   await seedInvoices();
   await seedRevenue();
 })();
